@@ -1,0 +1,11 @@
+<launch>
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen" />
+    <node name="teleop_turtle" pkg="turtlesim" type="turtle_teleop_key" output="screen" />
+    <node name="turtle_broadcaster_node1" pkg="ros_tutorials" type="turtle_tf_broadcaster.py" respawn="false" output="screen">
+        <param name="turtle" type="string" value="turtle1"/>
+    </node>
+    <node name="turtle_broadcaster_node2" pkg="ros_tutorials" type="turtle_tf_broadcaster.py" respawn="false" output="screen">
+        <param name="turtle" type="string" value="turtle2" />
+    </node>
+    <node name="turtle_tf_listener" pkg="ros_tutorials" type="rospy_turtle_tf_listener.py" output="screen" />
+</launch>

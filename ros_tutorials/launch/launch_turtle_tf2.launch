@@ -1,0 +1,6 @@
+<launch>
+    <node name="turtle_node" pkg="turtlesim" type="turtlesim_node" respawn="false" output="screen"/>
+    <node name="turtle_teleop_key" pkg="turtlesim" type="turtle_teleop_key" output="screen" />
+    <!--<node name="turtle_tf2_broadcaster" pkg="ros_tutorials" type="turtle_tf2" output="screen" />-->
+    <node name="turtle_tf2_listener" pkg="ros_tutorials" type="turtle_tf2_listener" output="screen" />
+</launch>

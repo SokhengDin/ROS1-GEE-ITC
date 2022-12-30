@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/Users/sokhengdin/mambaforge/envs/ros_env/include/**",
+        "/Users/sokhengdin/mambaforge/envs/ros_env/bin/**",
+        "/Users/sokhengdin/Desktop/Robocon2023/ros1_ws/devel/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,4 @@
+<launch>
+	<node name="publisher_node" pkg="ros_tutorials" type="rospy_publisher.py" output="screen"/>
+	<node name="subscriber_node" pkg="ros_tutorials" type="rospy_subscriber.py" output="screen"/>
+</launch>

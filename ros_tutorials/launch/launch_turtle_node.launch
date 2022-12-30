@@ -1,0 +1,4 @@
+<launch>
+	<node name="node_publisher" pkg="ros_tutorials" type="ros_velocity" output="screen" />
+	<node name="turtle_node" pkg="turtlesim" type="turtlesim_node" output="screen" />
+</launch>
